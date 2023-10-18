@@ -1,7 +1,5 @@
 package com.example.composeweather.presentation
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -22,7 +20,6 @@ import java.time.format.DateTimeFormatter
 import kotlin.math.roundToInt
 
 
-@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun WeatherCard(
     state: WeatherState,
